@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
 
     std::string command = argv[1];
 
-    if(command == "innit") {
+    if(command == "init") {
         fs::path directoryPath = ".minigit";
 
         if(fs::exists(directoryPath)) {
